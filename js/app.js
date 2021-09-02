@@ -44,7 +44,7 @@ const searchResult = (books) => {
             <div class="card-body">
                 <h5 class="card-title">${book.title}</h5>
                 <p class="card-text">Author: ${book.author_name}</p>
-                <p class="card-text">Publisher: ${book.publisher}</p>
+                <p class="card-text">Publisher: ${book.publisher[0]}</p>
                 <p class="card-text">First publish year: ${book.first_publish_year}</p>
             </div>
         </div>
