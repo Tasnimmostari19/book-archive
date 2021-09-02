@@ -17,7 +17,7 @@ const searchResult = (books) => {
 
     const showResult = document.getElementById('search-result');
     const length = books.length;
-    console.log(books.length);
+    // console.log(books.length);
     const resultNo = document.getElementById('result-no');
     resultNo.innerText = `search result found ${length}`;
     showResult.textContent = '';
